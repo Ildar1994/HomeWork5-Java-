@@ -19,7 +19,7 @@ void proverkaTest() {
     open("https://github.com/home");
     $(".HeaderMenu-nav").$(byText("Solutions")).hover();
     $("[href=\"https://github.com/enterprise\"]").click();
-    $("#hero-section-brand-heading").$(byText("The AI-powered")).$(byText("developer platform"));
+    $("h1#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
     
     sleep(5000);
 
