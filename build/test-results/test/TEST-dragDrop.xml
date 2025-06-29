@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dragDrop" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-28T09:59:45" hostname="HP" time="14.729">
+<testsuite name="dragDrop" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-29T11:12:46" hostname="HP" time="11.532">
   <properties/>
-  <testcase name="actionsTest()" classname="dragDrop" time="9.416"/>
-  <testcase name="dragDropTest()" classname="dragDrop" time="5.313"/>
+  <testcase name="dragDropTest()" classname="dragDrop" time="11.532"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation

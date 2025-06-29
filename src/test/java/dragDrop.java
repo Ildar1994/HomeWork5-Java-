@@ -30,6 +30,7 @@ public class dragDrop {
         $("#column-a").shouldHave(text("A"));
         $("#column-b").shouldHave(text("B"));
         actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(300,0).release().perform();
+        $("#column-b").shouldHave(text("A"));
         sleep(5000);
     }
 }
